@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+img{
+    width: 100vw;
+}
+a{
+    margin-top: -5px;
+    display: block;
+    background-color: darkred;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+    transition: .2s;
+}
